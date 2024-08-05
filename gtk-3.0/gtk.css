@@ -1,0 +1,82 @@
+/*
+window titlebar overhaul by soulhotel
+*/
+
+/* Buttons */
+
+button.minimize,
+button.maximize,
+button.close,
+button.minimize:hover,
+button.maximize:hover,
+button.close:hover {
+  background: none;
+  border: none;
+  margin: 0px;
+  margin-left: 10px;
+  padding: 1px;
+  min-width: 20px;
+  min-height: 20px;
+}
+
+button.minimize,
+button.minimize:hover {
+ margin-left: 4px;
+}
+
+button.minimize,
+button.maximize,
+button.close {
+  opacity: 1;
+  border-radius: 0%;
+  text-shadow: none;
+  color: rgba(0, 0, 0, 0);
+}
+
+button.minimize:hover,
+button.minimize {
+  background-image: url('min.svg');
+  background-repeat: no-repeat;
+}
+
+button.maximize:hover,
+button.maximize {
+  background-image: url('max.svg');
+  background-repeat: no-repeat;
+}
+
+button.close:hover,
+button.close {
+  background-image: url('close.svg');
+  background-repeat: no-repeat;
+}
+
+button.minimize:hover {
+  background-image: url('minh.svg');
+  opacity: 1;
+}
+
+button.maximize:hover {
+  background-image: url('maxh.svg');
+  opacity: 1;
+}
+
+button.close:hover {
+  background-image: url('closeh.svg');
+  opacity: 1;
+}
+
+:backdrop > button.minimize {
+  background-image: url('minb.svg');
+  opacity: 1;
+}
+
+:backdrop > button.maximize {
+  background-image: url('maxb.svg');
+  opacity: 1;
+}
+
+:backdrop > button.close {
+  background-image: url('closeb.svg');
+  opacity: 1;
+}
