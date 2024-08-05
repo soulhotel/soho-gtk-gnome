@@ -1,6 +1,6 @@
 > Build on top of [Dracula-gtk](https://github.com/dracula/gtk) just because.
 
-> gnome-shell
+> gnome-shell theming
 
 🚧 🚧 🚧
 
